@@ -100,9 +100,6 @@ public class LinearEquation {
         if (rise<0 && run<0){
             rise*=-1;
             run*=-1;
-        } else if (run<0){
-            rise*=-1;
-            run*=-1;
         }
 
 
