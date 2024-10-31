@@ -87,7 +87,7 @@ public class LinearEquation {
         int run = x2-x1;
         slope = rise+"/"+run;
         if (run!=0){
-            if (rise/run==1 || rise/run==0){
+            if ((double)rise/(double)run==1 || (double)rise/(double)run==0){
                 slope = "";
             } else if (rise/run==-1){
                 slope = "-";
